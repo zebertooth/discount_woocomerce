@@ -8,7 +8,7 @@ function cart_items_quantity_wine_discount($cart_object) {
         return;
 
     // Set HERE your category (can be an ID, a slug or the name)
-    $category = 'Discount'; // or a slug: $category = 'wine';
+    $category = 'Discount'; // or a slug: $category = '13'; << ID
 
     $category_count = 0;
     $category_total = 0;
